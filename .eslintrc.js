@@ -1,4 +1,3 @@
-// https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project
 // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin/docs/rules
 
 module.exports = {

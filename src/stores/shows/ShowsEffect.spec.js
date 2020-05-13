@@ -18,12 +18,12 @@ describe('ShowsEffect', () => {
 
       const scope = nock(baseUrl)
         .get(sourceUrl)
-        .reply(200, { name: 'Robert' });
+        .reply(200, { name: 'Tenwiz' });
 
       const actualResult = await ShowsEffect.requestShow(showId);
 
       expect(actualResult).toBeInstanceOf(ShowModel);
-      expect(actualResult.name).toEqual('Robert');
+      expect(actualResult.name).toEqual('Tenwiz');
 
       // Assert that the expected request was made.
       scope.done();
@@ -38,12 +38,12 @@ describe('ShowsEffect', () => {
 
       const scope = nock(baseUrl)
         .get(sourceUrl)
-        .reply(200, [{ summary: 'Robert is cool' }]);
+        .reply(200, [{ summary: 'Tenwiz is cool' }]);
 
       const actualResult = await ShowsEffect.requestEpisodes(showId);
 
       expect(actualResult[0]).toBeInstanceOf(EpisodeModel);
-      expect(actualResult[0].summary).toEqual('Robert is cool');
+      expect(actualResult[0].summary).toEqual('Tenwiz is cool');
 
       // Assert that the expected request was made.
       scope.done();

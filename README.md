@@ -1,14 +1,14 @@
 ## react-redux-architecture
 
-View the running [website](https://codebelt.github.io/react-redux-architecture/)
+View the running [website](https://tenwiz.github.io/react-redux-architecture/)
 
 Check out the source code in different formats:
 
-- [React/Redux (TypeScript — Classes)](https://github.com/codeBelt/react-redux-architecture/tree/TypeScript)
-- [React/Redux (JavaScript — Classes)](https://github.com/codeBelt/react-redux-architecture/tree/JavaScript)
-- [React Hooks/Redux (TypeScript — Functions)](https://github.com/codeBelt/react-redux-architecture/tree/ts/function)
-- [React Hooks/Redux (JavaScript — Functions)](https://github.com/codeBelt/react-redux-architecture/tree/js/function)
-- [React Hooks/Redux (TypeScript — Arrows)](https://github.com/codeBelt/react-redux-architecture/tree/ts/arrows)
+- [React/Redux (TypeScript — Classes)](https://github.com/tenwiz/react-redux-architecture/tree/TypeScript)
+- [React/Redux (JavaScript — Classes)](https://github.com/tenwiz/react-redux-architecture/tree/JavaScript)
+- [React Hooks/Redux (TypeScript — Functions)](https://github.com/tenwiz/react-redux-architecture/tree/ts/function)
+- [React Hooks/Redux (JavaScript — Functions)](https://github.com/tenwiz/react-redux-architecture/tree/js/function)
+- [React Hooks/Redux (TypeScript — Arrows)](https://github.com/tenwiz/react-redux-architecture/tree/ts/arrows)
 
 Read the article explaining this code:
 [My Awesome React Redux Structure](https://medium.com/better-programming/my-awesome-react-redux-structure-6044e5007e22)
@@ -37,7 +37,7 @@ You will also see any lint errors in the console.
 
 #### `yarn generate` or `npm generate`
 
-Scaffolding tool, see [generate-template-files](https://github.com/codeBelt/generate-template-files#readme). Check the `tools/templates` directory for existing templates.
+Scaffolding tool, see [generate-template-files](https://github.com/tenwiz/generate-template-files#readme). Check the `tools/templates` directory for existing templates.
 
 #### `yarn build` or `npm build`
 
